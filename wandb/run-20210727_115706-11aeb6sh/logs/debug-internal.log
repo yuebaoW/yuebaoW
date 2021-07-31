@@ -1,0 +1,72 @@
+2021-07-27 11:57:09,143 INFO    MainThread:21102 [internal.py:wandb_internal():91] W&B internal server running at pid: 21102, started at: 2021-07-27 11:57:09.143005
+2021-07-27 11:57:09,155 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: check_version
+2021-07-27 11:57:09,157 INFO    WriterThread:21102 [datastore.py:open_for_write():80] open: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/run-11aeb6sh.wandb
+2021-07-27 11:57:09,167 DEBUG   SenderThread:21102 [sender.py:send():179] send: header
+2021-07-27 11:57:09,168 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: check_version
+2021-07-27 11:57:09,566 DEBUG   SenderThread:21102 [sender.py:send():179] send: run
+2021-07-27 11:57:09,620 INFO    SenderThread:21102 [sender.py:_maybe_setup_resume():414] checking resume status for None/YOLOv5/11aeb6sh
+2021-07-27 11:57:11,154 INFO    SenderThread:21102 [dir_watcher.py:__init__():168] watching files in: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/files
+2021-07-27 11:57:11,155 INFO    SenderThread:21102 [sender.py:_start_run_threads():719] run started: 11aeb6sh with start time 1627358227
+2021-07-27 11:57:11,156 DEBUG   SenderThread:21102 [sender.py:send():179] send: summary
+2021-07-27 11:57:11,157 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: run_start
+2021-07-27 11:57:11,159 INFO    SenderThread:21102 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-27 11:57:11,166 DEBUG   HandlerThread:21102 [meta.py:__init__():39] meta init
+2021-07-27 11:57:11,166 DEBUG   HandlerThread:21102 [meta.py:__init__():53] meta init done
+2021-07-27 11:57:11,167 DEBUG   HandlerThread:21102 [meta.py:probe():210] probe
+2021-07-27 11:57:11,173 DEBUG   HandlerThread:21102 [meta.py:_save_pip():57] save pip
+2021-07-27 11:57:11,177 DEBUG   HandlerThread:21102 [meta.py:_save_pip():71] save pip done
+2021-07-27 11:57:11,177 DEBUG   HandlerThread:21102 [meta.py:_save_conda():78] save conda
+2021-07-27 11:57:12,168 INFO    Thread-14 :21102 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/files/conda-environment.yaml
+2021-07-27 11:57:12,170 INFO    Thread-14 :21102 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/files/wandb-summary.json
+2021-07-27 11:57:12,171 INFO    Thread-14 :21102 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/files/requirements.txt
+2021-07-27 11:57:15,129 DEBUG   HandlerThread:21102 [meta.py:_save_conda():86] save conda done
+2021-07-27 11:57:15,130 DEBUG   HandlerThread:21102 [meta.py:probe():252] probe done
+2021-07-27 11:57:15,161 INFO    Thread-14 :21102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/files/conda-environment.yaml
+2021-07-27 11:57:15,163 INFO    Thread-14 :21102 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/files/wandb-metadata.json
+2021-07-27 11:57:15,249 DEBUG   SenderThread:21102 [sender.py:send():179] send: files
+2021-07-27 11:57:15,250 INFO    SenderThread:21102 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-07-27 11:57:15,272 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:57:15,279 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:57:16,047 DEBUG   SenderThread:21102 [sender.py:send():179] send: config
+2021-07-27 11:57:16,162 INFO    Thread-14 :21102 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/files/output.log
+2021-07-27 11:57:16,895 INFO    Thread-17 :21102 [upload_job.py:push():137] Uploaded file /tmp/tmp14xxdir5wandb/itbphm3j-wandb-metadata.json
+2021-07-27 11:57:31,055 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:57:31,056 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:57:40,343 DEBUG   SenderThread:21102 [sender.py:send():179] send: stats
+2021-07-27 11:57:41,183 INFO    Thread-14 :21102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/files/config.yaml
+2021-07-27 11:57:45,187 INFO    Thread-14 :21102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/files/output.log
+2021-07-27 11:57:46,805 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:57:46,806 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:57:47,188 INFO    Thread-14 :21102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/files/output.log
+2021-07-27 11:58:02,564 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:58:02,565 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:58:11,125 DEBUG   SenderThread:21102 [sender.py:send():179] send: stats
+2021-07-27 11:58:17,214 INFO    Thread-14 :21102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/files/output.log
+2021-07-27 11:58:18,307 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:58:18,308 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:58:34,067 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:58:34,068 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:58:37,231 INFO    Thread-14 :21102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/files/output.log
+2021-07-27 11:58:42,133 DEBUG   SenderThread:21102 [sender.py:send():179] send: stats
+2021-07-27 11:58:49,835 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:58:49,836 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:58:53,245 INFO    Thread-14 :21102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/files/output.log
+2021-07-27 11:59:05,585 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:59:05,585 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:59:13,127 DEBUG   SenderThread:21102 [sender.py:send():179] send: stats
+2021-07-27 11:59:19,266 INFO    Thread-14 :21102 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_115706-11aeb6sh/files/output.log
+2021-07-27 11:59:21,333 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:59:21,334 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:59:37,091 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:59:37,092 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:59:44,151 DEBUG   SenderThread:21102 [sender.py:send():179] send: stats
+2021-07-27 11:59:52,838 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:59:52,838 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 12:00:08,594 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 12:00:08,595 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 12:00:15,187 DEBUG   SenderThread:21102 [sender.py:send():179] send: stats
+2021-07-27 12:00:24,341 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 12:00:24,342 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 12:00:40,083 DEBUG   HandlerThread:21102 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 12:00:40,084 DEBUG   SenderThread:21102 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 12:00:46,213 DEBUG   SenderThread:21102 [sender.py:send():179] send: stats

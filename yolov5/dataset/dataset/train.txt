@@ -1,0 +1,5 @@
+D:\Deep_learning\my_competition\yolov5\dataset\images\0.tif
+D:\Deep_learning\my_competition\yolov5\dataset\images\1.tif
+D:\Deep_learning\my_competition\yolov5\dataset\images\2.tif
+D:\Deep_learning\my_competition\yolov5\dataset\images\0_700_4.tif
+
