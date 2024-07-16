@@ -1,0 +1,40 @@
+2021-07-27 11:40:25,087 INFO    MainThread:17332 [internal.py:wandb_internal():91] W&B internal server running at pid: 17332, started at: 2021-07-27 11:40:25.086914
+2021-07-27 11:40:25,100 DEBUG   HandlerThread:17332 [handler.py:handle_request():124] handle_request: check_version
+2021-07-27 11:40:25,101 INFO    WriterThread:17332 [datastore.py:open_for_write():80] open: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_114022-kycykeh8/run-kycykeh8.wandb
+2021-07-27 11:40:25,111 DEBUG   SenderThread:17332 [sender.py:send():179] send: header
+2021-07-27 11:40:25,111 DEBUG   SenderThread:17332 [sender.py:send_request():193] send_request: check_version
+2021-07-27 11:40:25,632 DEBUG   SenderThread:17332 [sender.py:send():179] send: run
+2021-07-27 11:40:25,673 INFO    SenderThread:17332 [sender.py:_maybe_setup_resume():414] checking resume status for None/YOLOv5/kycykeh8
+2021-07-27 11:40:27,221 INFO    SenderThread:17332 [dir_watcher.py:__init__():168] watching files in: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_114022-kycykeh8/files
+2021-07-27 11:40:27,221 INFO    SenderThread:17332 [sender.py:_start_run_threads():719] run started: kycykeh8 with start time 1627357223
+2021-07-27 11:40:27,222 DEBUG   SenderThread:17332 [sender.py:send():179] send: summary
+2021-07-27 11:40:27,223 DEBUG   HandlerThread:17332 [handler.py:handle_request():124] handle_request: run_start
+2021-07-27 11:40:27,225 INFO    SenderThread:17332 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-27 11:40:27,232 DEBUG   HandlerThread:17332 [meta.py:__init__():39] meta init
+2021-07-27 11:40:27,232 DEBUG   HandlerThread:17332 [meta.py:__init__():53] meta init done
+2021-07-27 11:40:27,233 DEBUG   HandlerThread:17332 [meta.py:probe():210] probe
+2021-07-27 11:40:27,239 DEBUG   HandlerThread:17332 [meta.py:_save_pip():57] save pip
+2021-07-27 11:40:27,242 DEBUG   HandlerThread:17332 [meta.py:_save_pip():71] save pip done
+2021-07-27 11:40:27,243 DEBUG   HandlerThread:17332 [meta.py:_save_conda():78] save conda
+2021-07-27 11:40:28,235 INFO    Thread-14 :17332 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_114022-kycykeh8/files/requirements.txt
+2021-07-27 11:40:28,237 INFO    Thread-14 :17332 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_114022-kycykeh8/files/wandb-summary.json
+2021-07-27 11:40:28,237 INFO    Thread-14 :17332 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_114022-kycykeh8/files/conda-environment.yaml
+2021-07-27 11:40:30,745 DEBUG   HandlerThread:17332 [meta.py:_save_conda():86] save conda done
+2021-07-27 11:40:30,745 DEBUG   HandlerThread:17332 [meta.py:probe():252] probe done
+2021-07-27 11:40:30,871 DEBUG   SenderThread:17332 [sender.py:send():179] send: files
+2021-07-27 11:40:30,872 INFO    SenderThread:17332 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-07-27 11:40:30,896 DEBUG   HandlerThread:17332 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:40:30,901 DEBUG   SenderThread:17332 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:40:31,226 INFO    Thread-14 :17332 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_114022-kycykeh8/files/conda-environment.yaml
+2021-07-27 11:40:31,227 INFO    Thread-14 :17332 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_114022-kycykeh8/files/output.log
+2021-07-27 11:40:31,228 INFO    Thread-14 :17332 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_114022-kycykeh8/files/wandb-metadata.json
+2021-07-27 11:40:31,648 DEBUG   SenderThread:17332 [sender.py:send():179] send: config
+2021-07-27 11:40:32,549 INFO    Thread-17 :17332 [upload_job.py:push():137] Uploaded file /tmp/tmpliz8py3bwandb/wtzhktec-wandb-metadata.json
+2021-07-27 11:40:36,231 INFO    Thread-14 :17332 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_114022-kycykeh8/files/output.log
+2021-07-27 11:40:48,695 DEBUG   HandlerThread:17332 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:40:48,696 DEBUG   SenderThread:17332 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:40:50,244 INFO    Thread-14 :17332 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_114022-kycykeh8/files/output.log
+2021-07-27 11:40:56,348 DEBUG   SenderThread:17332 [sender.py:send():179] send: stats
+2021-07-27 11:40:57,288 INFO    Thread-14 :17332 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_114022-kycykeh8/files/config.yaml
+2021-07-27 11:41:04,437 DEBUG   HandlerThread:17332 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:41:04,439 DEBUG   SenderThread:17332 [sender.py:send_request():193] send_request: stop_status

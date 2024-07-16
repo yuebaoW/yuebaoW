@@ -1,0 +1,102 @@
+2021-07-27 11:33:12,016 INFO    MainThread:15166 [internal.py:wandb_internal():91] W&B internal server running at pid: 15166, started at: 2021-07-27 11:33:12.015739
+2021-07-27 11:33:12,031 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: check_version
+2021-07-27 11:33:12,032 INFO    WriterThread:15166 [datastore.py:open_for_write():80] open: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/run-28o6v6r4.wandb
+2021-07-27 11:33:12,039 DEBUG   SenderThread:15166 [sender.py:send():179] send: header
+2021-07-27 11:33:12,039 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: check_version
+2021-07-27 11:33:12,593 DEBUG   SenderThread:15166 [sender.py:send():179] send: run
+2021-07-27 11:33:12,649 INFO    SenderThread:15166 [sender.py:_maybe_setup_resume():414] checking resume status for None/YOLOv5/28o6v6r4
+2021-07-27 11:33:14,222 INFO    SenderThread:15166 [dir_watcher.py:__init__():168] watching files in: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/files
+2021-07-27 11:33:14,223 INFO    SenderThread:15166 [sender.py:_start_run_threads():719] run started: 28o6v6r4 with start time 1627356789
+2021-07-27 11:33:14,223 DEBUG   SenderThread:15166 [sender.py:send():179] send: summary
+2021-07-27 11:33:14,225 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: run_start
+2021-07-27 11:33:14,225 INFO    SenderThread:15166 [sender.py:_save_file():841] saving file wandb-summary.json with policy end
+2021-07-27 11:33:14,233 DEBUG   HandlerThread:15166 [meta.py:__init__():39] meta init
+2021-07-27 11:33:14,233 DEBUG   HandlerThread:15166 [meta.py:__init__():53] meta init done
+2021-07-27 11:33:14,233 DEBUG   HandlerThread:15166 [meta.py:probe():210] probe
+2021-07-27 11:33:14,240 DEBUG   HandlerThread:15166 [meta.py:_save_pip():57] save pip
+2021-07-27 11:33:14,243 DEBUG   HandlerThread:15166 [meta.py:_save_pip():71] save pip done
+2021-07-27 11:33:14,244 DEBUG   HandlerThread:15166 [meta.py:_save_conda():78] save conda
+2021-07-27 11:33:15,236 INFO    Thread-14 :15166 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/files/requirements.txt
+2021-07-27 11:33:15,238 INFO    Thread-14 :15166 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/files/wandb-summary.json
+2021-07-27 11:33:15,238 INFO    Thread-14 :15166 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/files/conda-environment.yaml
+2021-07-27 11:33:18,024 DEBUG   HandlerThread:15166 [meta.py:_save_conda():86] save conda done
+2021-07-27 11:33:18,024 DEBUG   HandlerThread:15166 [meta.py:probe():252] probe done
+2021-07-27 11:33:18,143 DEBUG   SenderThread:15166 [sender.py:send():179] send: files
+2021-07-27 11:33:18,144 INFO    SenderThread:15166 [sender.py:_save_file():841] saving file wandb-metadata.json with policy now
+2021-07-27 11:33:18,171 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:33:18,172 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:33:18,227 INFO    Thread-14 :15166 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/files/conda-environment.yaml
+2021-07-27 11:33:18,228 INFO    Thread-14 :15166 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/files/output.log
+2021-07-27 11:33:18,228 INFO    Thread-14 :15166 [dir_watcher.py:_on_file_created():216] file/dir created: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/files/wandb-metadata.json
+2021-07-27 11:33:18,928 DEBUG   SenderThread:15166 [sender.py:send():179] send: config
+2021-07-27 11:33:19,897 INFO    Thread-17 :15166 [upload_job.py:push():137] Uploaded file /tmp/tmpeh0zv8s3wandb/16ehsv46-wandb-metadata.json
+2021-07-27 11:33:23,232 INFO    Thread-14 :15166 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/files/output.log
+2021-07-27 11:33:36,070 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:33:36,070 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:33:43,250 INFO    Thread-14 :15166 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/files/config.yaml
+2021-07-27 11:33:43,307 DEBUG   SenderThread:15166 [sender.py:send():179] send: stats
+2021-07-27 11:33:51,833 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:33:51,834 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:34:07,618 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:34:07,619 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:34:12,276 INFO    Thread-14 :15166 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/files/output.log
+2021-07-27 11:34:14,339 DEBUG   SenderThread:15166 [sender.py:send():179] send: stats
+2021-07-27 11:34:23,367 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:34:23,367 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:34:39,116 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:34:39,117 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:34:45,351 DEBUG   SenderThread:15166 [sender.py:send():179] send: stats
+2021-07-27 11:34:54,864 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:34:54,865 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:35:10,619 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:35:10,620 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:35:12,330 INFO    Thread-14 :15166 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/files/output.log
+2021-07-27 11:35:16,414 DEBUG   SenderThread:15166 [sender.py:send():179] send: stats
+2021-07-27 11:35:26,363 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:35:26,364 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:35:42,111 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:35:42,111 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:35:47,486 DEBUG   SenderThread:15166 [sender.py:send():179] send: stats
+2021-07-27 11:35:54,366 INFO    Thread-14 :15166 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/files/output.log
+2021-07-27 11:35:57,863 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:35:57,864 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:36:06,377 INFO    Thread-14 :15166 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/files/output.log
+2021-07-27 11:36:08,378 INFO    Thread-14 :15166 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/liuliang/deep_learning/yuebaoW/wandb/run-20210727_113309-28o6v6r4/files/output.log
+2021-07-27 11:36:13,610 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:36:13,610 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:36:18,507 DEBUG   SenderThread:15166 [sender.py:send():179] send: stats
+2021-07-27 11:36:29,355 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:36:29,356 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:36:45,099 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:36:45,100 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:36:49,565 DEBUG   SenderThread:15166 [sender.py:send():179] send: stats
+2021-07-27 11:37:00,843 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:37:00,844 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:37:16,593 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:37:16,594 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:37:20,612 DEBUG   SenderThread:15166 [sender.py:send():179] send: stats
+2021-07-27 11:37:32,333 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:37:32,334 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:37:48,076 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:37:48,077 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:37:51,682 DEBUG   SenderThread:15166 [sender.py:send():179] send: stats
+2021-07-27 11:38:03,836 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:38:03,837 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:38:19,604 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:38:19,604 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:38:22,739 DEBUG   SenderThread:15166 [sender.py:send():179] send: stats
+2021-07-27 11:38:35,362 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:38:35,363 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:38:51,121 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:38:51,122 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:38:53,775 DEBUG   SenderThread:15166 [sender.py:send():179] send: stats
+2021-07-27 11:39:06,869 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:39:06,871 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:39:22,621 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:39:22,621 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:39:24,849 DEBUG   SenderThread:15166 [sender.py:send():179] send: stats
+2021-07-27 11:39:38,361 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:39:38,362 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:39:54,124 DEBUG   HandlerThread:15166 [handler.py:handle_request():124] handle_request: stop_status
+2021-07-27 11:39:54,125 DEBUG   SenderThread:15166 [sender.py:send_request():193] send_request: stop_status
+2021-07-27 11:39:55,914 DEBUG   SenderThread:15166 [sender.py:send():179] send: stats
